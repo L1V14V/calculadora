@@ -1,29 +1,33 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.fundo{
+
+.fundo {
     background-color: #ffc1f9;
     height: 100vh;
     color: #fff;
     font-family: "Madimi One", sans-serif;
-    
+
 }
-.calculadora{
+
+.calculadora {
     position: absolute;
     background-color: #ff78c5;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     border-radius: 15px;
     padding: 15px;
 }
-.topo{
+
+.topo {
     justify-content: center;
     display: flex;
     text-align: center;
 }
-.botao{
+
+.botao {
     font-family: "Madimi One", sans-serif;
     width: 50px;
     height: 50px;
@@ -34,12 +38,14 @@
     border-radius: 8%;
     background-color: #ffc1f9;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    
+
 }
-.botao:hover{
+
+.botao:hover {
     background-color: #c90076;
 }
-#resultado{
+
+#resultado {
     color: black;
     width: 209px;
     height: 30px;
@@ -51,7 +57,8 @@
     border-radius: 8%;
     border: 2px solid black;
 }
-.zero{
+
+.zero {
     width: 106px;
     font-size: 25px;
     margin: 3px;
@@ -63,10 +70,12 @@
     background-color: #ffc1f9;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-.zero:hover{
+
+.zero:hover {
     background-color: #c90076;
 }
-.igualdade{
+
+.igualdade {
     height: 106px;
     font-size: 25px;
     margin: 3px;
@@ -78,11 +87,12 @@
     background-color: #adf2f4;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-.igualdade:hover{
+
+.igualdade:hover {
     background-color: #c90076;
 }
 
-.operacao{
+.operacao {
     background-color: #c90076;
     font-family: "Madimi One", sans-serif;
     width: 50px;
@@ -94,18 +104,16 @@
     border-radius: 8%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-.operacao:hover{
+
+.operacao:hover {
     background-color: #ffc1f9;
 }
-footer{
+
+footer {
     justify-content: center;
     align-items: center;
-    background-color: #c90076 ;
+    background-color: #c90076;
     display: flex;
-    font-family: "Madimi One", sans-serif; 
+    font-family: "Madimi One", sans-serif;
     color: white
-
 }
-
-
-
