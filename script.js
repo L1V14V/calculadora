@@ -13,7 +13,7 @@ function back(){
 function calcular(){
     let calcule= document.getElementById('resultado').innerHTML;
     if(calcule){
-        document.getElementById('resultado').innerHTML= eval(calcule);
+        document.getElementById('resultado').innerHTML= eval(calcule);  
     }
     else{
         document.getElementById('resultado').innerHTML= 'Nada encontrado'
